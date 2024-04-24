@@ -1,5 +1,5 @@
 import type TAttribute from "./AttributeTyped.mjs";
-import nameof, { type PropertySelector } from "./nameof.mjs";
+import nameof, { type TPropertySelector } from "./nameof.mjs";
 import isFunction from "./isFunction.mjs";
 
 export const PUBLIC_PREFIX  = ['$'];
