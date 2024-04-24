@@ -19,3 +19,5 @@ export function nameof<T, V extends T[keyof T]>(nameOrNameOfSelector: keyof T | 
     
     return nameOrNameOfSelector(proxyKeyReturn as T);
 }
+
+export default nameof;
